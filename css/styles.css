@@ -614,31 +614,38 @@ header a:hover{
     .imagen-laura{ margin: 0;}
     footer{ margin-top: 50px;}
     .linea{ height: 770px !important;}
+    header{width: 80%;}
+    header a{font-size: 16px;}
+
   }
 
   @media (max-width:670px){
     .linea{ visibility:hidden;}
+    .titulo{font-size: 35px;}
   }
 
   @media (max-width:588px){
     .tecnologias div{width: 150px; height: 50px;}
     .main-lista-proyectos .proyect{min-width: 350px;}
+ 
   }
 
   @media (max-width: 413px) {
-    body{padding: 0px;}
-    .contenido{ width: 100%;  padding: 20px;}
+    header a{font-size: 12px; letter-spacing: 0px;}
+    body{padding: 10px;}
+    .contenido{ width: 100%; padding: 10px;}
     .descripcion-laura{ width: 100%;}
     .titulo{ font-size: 30px;}
     p.welcome{ font-size: 12px;}
     p{ font-size: 14px;}
     .tittle-formacion{padding-top: 0px;}
+    .titulo-proyect{font-size: 20px;}
     .btn-53 .original{ font-size: 18px;}
     .accordion{ font-size: 18px;  margin-top: 20px;}
     .tecnologias{ margin-bottom: 90px;}
     .panel{ margin-left: 20px;}
     footer .nombre{ font-size: 50px;}
     footer{ justify-content: center;}
-    .main-lista-proyectos .proyect{min-width: 300px;}
+    .main-lista-proyectos .proyect{min-width: 370px;}
   }
   
