@@ -1,10 +1,10 @@
 body{
-    /* background: radial-gradient(60% 120% at 50% 50%, hsla(0, 0%, 100%, 0) 0%, rgb(251, 245, 229) 100%); */
     background: url(../img/vintage-wallpaper-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 40px 0px 0px 0px;
