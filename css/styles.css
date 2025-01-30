@@ -87,8 +87,8 @@ header a:hover{
   }
 
   .imagen-laura{
-    width: 30%;
-    height: 300px;
+    width: 280px;
+    height: auto;
     margin: 30px 0px;
     border-radius: 5px;
   }
@@ -111,7 +111,6 @@ header a:hover{
     width: 200px;
   }
 
-  /* From Uiverse.io by doniaskima */ 
 .btn-53,
 .btn-53 *,
 .btn-53 :after,
@@ -125,7 +124,6 @@ header a:hover{
 .btn-53 {
   -webkit-tap-highlight-color: transparent;
   background: rgb(200, 144, 167);
-  /* transition: all 300ms ease; */
   background-image: none;
   color: #fff;
   cursor: pointer;
@@ -146,7 +144,6 @@ header a:hover{
 
 .btn-53 svg {
   display: block;
-  /* vertical-align: middle; */
 }
 
 .btn-53 [hidden] {
@@ -261,7 +258,6 @@ header a:hover{
     color: white;
   }
 
-
   .fa-arrow-down{
     font-size: 18px;
     margin-left: 10px;
@@ -279,10 +275,8 @@ header a:hover{
     color: rgb(163, 92, 122);
   }
 
-
   main{
     padding: 20px 0px;
-    /* padding-bottom: 80px; */
     display: flex;
     flex-flow: wrap row;
     align-items: start !important;
@@ -307,7 +301,6 @@ header a:hover{
     min-height: 570px;
     border-radius: 5px; 
     min-width: 400px;
-
   }
 
   .proyect-enlace {
@@ -320,7 +313,6 @@ header a:hover{
 
   .proyect {
     border: 1px solid rgb(159, 159, 159);
-    /* height: 650px; */
     width: 100%;
     padding: 0px 0px;
     text-align: start;
@@ -331,14 +323,14 @@ header a:hover{
   
   .imagen-proyec {
     position: relative;
-    overflow: hidden; /* Asegura que el overlay no se salga de los límites */
+    overflow: hidden;
   }
   
   .imagen-proyec img {
     width: 100%;
     height: 300px;
-    object-fit: cover; /* Asegura que la imagen se ajuste bien */
-    transition: all 0.3s ease; /* Transición suave para la imagen */
+    object-fit: cover;
+    transition: all 0.3s ease;
     margin: 0px;
   }
   
@@ -350,7 +342,7 @@ header a:hover{
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: opacity 0.3s ease; /* Transición suave para la imagen */
+    transition: opacity 0.3s ease;
   }
   
   .imagen-proyec::after {
@@ -362,20 +354,20 @@ header a:hover{
     height: 100%;
     background: linear-gradient(161deg, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0.5) 100%);
     opacity: 0;
-    transition: opacity 0.3s ease; /* Transición suave para el overlay */
-    z-index: 1; /* Asegura que el overlay esté encima de la imagen */
+    transition: opacity 0.3s ease;
+    z-index: 1;
   }
   
   .proyect:hover .imagen-proyec::after {
-    opacity: 1; /* Muestra el overlay al hacer hover */
+    opacity: 1;
   }
   
   .proyect:hover .imagen-proyec .default-img {
-    opacity: 0; /* Oculta la imagen por defecto */
+    opacity: 0;
   }
   
   .proyect:hover .imagen-proyec .hover-img {
-    opacity: 1; /* Muestra la imagen al hacer hover */
+    opacity: 1;
   }
   
   .proyect:hover {
@@ -395,14 +387,11 @@ header a:hover{
     text-align: center;
     font-family: "DM Sans", serif;
     color: rgb(53, 53, 53);
-
-
   }
   
   .descrip-proyect {
     padding: 0px 20px;
     color: rgb(0, 0, 0) !important;
-
   }
   
   .descrip-tecnologias{
@@ -421,9 +410,7 @@ header a:hover{
     border: 1px solid rgba(209, 104, 165, 0.286);
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.627);
-    margin-left: 10px;
   }
-
   
   .fa-react, .fa-node-js, .fa-figma,
   .fa-envira{
@@ -441,9 +428,7 @@ header a:hover{
   }
 
   section{
-    margin-top: 80px;
     display: flex;
-    /* justify-content: center; */
     justify-content: start;
     flex-flow: wrap row;
   }
@@ -451,7 +436,7 @@ header a:hover{
   .tecnologias{
     flex: 1 100%;
     text-align: start !important;
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     flex-flow: wrap row ;
     gap: 30px;
@@ -459,18 +444,11 @@ header a:hover{
     margin-bottom: 150px;
   }
 
-  /* .formacion-academica{
-    margin-left: 50px;
-    display: flex;
-    
-  } */
-
-
   .title-tecnologias{
     flex: 1 100%;
     width: 100%;
     margin-bottom: 30px;
-    padding-top: 60px !important; 
+    padding-top: 30px !important; 
   }
 
   .tecnologias div i,
@@ -488,7 +466,6 @@ header a:hover{
   .tecnologias div i:hover{
     transform: none !important;
     color: black !important;
-
   }
 
   .tecnologias div{
@@ -499,7 +476,6 @@ header a:hover{
     width: 220px;
     height: 50px;
     border:solid 2px rgb(163, 92, 122);
-
   }
 
   .formacion{
@@ -547,15 +523,6 @@ header a:hover{
     cursor: alias !important;
   }
 
-  /* .panel {
-    padding: 0 18px;
-    background-color: rgba(255, 255, 255, 0);
-    display: none;
-    overflow: hidden;
-    width: 100%;
-
-  } */
-
   .panel{
     margin-left: 60px;
   }
@@ -563,7 +530,6 @@ header a:hover{
   .fa-circle{
     margin-right: 20px;
     font-size: 15px;
-
   }
 
   footer .nombre {
@@ -621,10 +587,8 @@ header a:hover{
     font-weight: bold;
     transition: color 0.3s ease;
   }
-
   
   .footer-copy {
-    /* position: absolute; */
     margin-top: 50px;
     flex: 1 100%;
     bottom: 10px;
@@ -632,5 +596,49 @@ header a:hover{
     text-align: center;
     font-size: 14px;
     opacity: 0.8;
+  }
+
+
+  
+  @media (max-width: 950px) {
+    p{ font-size: 18px;}
+    .descrip {margin-top: 50px;}
+    .imagen-laura {padding: 0px; margin: 0px;}
+
+  }
+
+  @media (max-width: 800px) {
+    .contenido{width: 80%;}
+    .descripcion-laura{  width: 100%;}
+    .descrip{ margin-top: 50px;  margin-bottom: 0px}
+    .imagen-laura{ margin: 0;}
+    footer{ margin-top: 50px;}
+    .linea{ height: 770px !important;}
+  }
+
+  @media (max-width:670px){
+    .linea{ visibility:hidden;}
+  }
+
+  @media (max-width:588px){
+    .tecnologias div{width: 150px; height: 50px;}
+    .main-lista-proyectos .proyect{min-width: 350px;}
+  }
+
+  @media (max-width: 413px) {
+    body{padding: 0px;}
+    .contenido{ width: 100%;  padding: 20px;}
+    .descripcion-laura{ width: 100%;}
+    .titulo{ font-size: 30px;}
+    p.welcome{ font-size: 12px;}
+    p{ font-size: 14px;}
+    .tittle-formacion{padding-top: 0px;}
+    .btn-53 .original{ font-size: 18px;}
+    .accordion{ font-size: 18px;  margin-top: 20px;}
+    .tecnologias{ margin-bottom: 90px;}
+    .panel{ margin-left: 20px;}
+    footer .nombre{ font-size: 50px;}
+    footer{ justify-content: center;}
+    .main-lista-proyectos .proyect{min-width: 300px;}
   }
   
