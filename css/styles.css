@@ -625,13 +625,15 @@ header a:hover{
   
   @media (max-width: 950px) {
     p{ font-size: 18px;}
+    .contenido{width: 80%;}
+    .descripcion-laura{  width: 100%;}
+
+
     .descrip {margin-top: 50px;}
     .imagen-laura {padding: 0px; padding: 0px;}
   }
 
   @media (max-width: 800px) {
-    .contenido{width: 80%;}
-    .descripcion-laura{  width: 100%;}
     .descrip{ margin-top: 70px;  margin-bottom: 0px}
     .imagen-laura{ margin: 0;}
     footer{ margin-top: 50px;}
@@ -664,12 +666,14 @@ header a:hover{
     .titulo-proyect{font-size: 20px;}
     .btn-53 .original{ font-size: 18px;}
     .accordion{ font-size: 18px;  margin-top: 20px;}
-    .tecnologias{ margin-bottom: 90px; margin-top: 60px;}
+    .tecnologias{ margin-bottom: 90px; margin-top: 60px; gap: 15px;}
     .panel{ margin-left: 20px;}
     footer .nombre{ font-size: 50px;}
     footer{ justify-content: center;}
     .main-lista-proyectos .proyect{min-width: 100%; min-height: 300px;}
     .imagen-proyec img {height: 200px;}
+    .tecnologias div {width: 120px; font-size: 12px; padding: 10px;}
+    .tecnologias div i, .tecnologias .icon{ font-size: 25px;}
   }
 
   @media (max-width: 320px) {
