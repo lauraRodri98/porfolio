@@ -612,7 +612,7 @@ header a:hover{
       scale: 100%;
     }
   }
-  .proyect, .tecnologia, .panel, .accordion, .linea {
+  .proyect, .tecnologia, .panel, .accordion{
     view-timeline-name: --image;
     view-timeline-axis: block;
 
@@ -668,18 +668,18 @@ header a:hover{
     .panel{ margin-left: 20px;}
     footer .nombre{ font-size: 50px;}
     footer{ justify-content: center;}
-    .main-lista-proyectos .proyect{min-width: 370px;}
+    .main-lista-proyectos .proyect{min-width: 100%; min-height: 300px;}
+    .imagen-proyec img {height: 200px;}
   }
 
   @media (max-width: 320px) {
-    .main-lista-proyectos .proyect{min-width: 280px; min-height: 400px; padding-bottom: 10px;}
+    .main-lista-proyectos .proyect{ min-height: 400px; padding-bottom: 10px;}
     .tecnologias {margin-top:0px}
     .tecnologias div { width: 120px; font-size: 12px; display: flex;}
     .tecnologias div i, .tecnologias .icon{ font-size: 30px;}
     .tecnologias{gap: 10px;}
-    .imagen-proyec img {height: 200px;}
     .tittle-formacion{padding-top: 0px;}
-    .titulo-proyect {margin: 8px;padding:0px;}
+    .titulo-proyect {margin: 8px; padding:0px;}
     .descrip-tecnologias{gap: 8px; padding: 10px; margin-bottom: 0px;}
     .descrip-proyect{padding: 0px; margin: 0px 10px;} 
   }
