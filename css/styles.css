@@ -301,16 +301,17 @@ header a:hover{
 
   .main-lista-proyectos .proyect{
     width: 47%;
-    min-height: 570px;
+    min-height: 600px;
     border-radius: 5px; 
     min-width: 400px;
+    height: auto;
+
   }
 
   .proyect-enlace {
     color: black;
     text-decoration: none;
     position: relative;
-    height: 620px !important;
 
   }
 
