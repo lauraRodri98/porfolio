@@ -235,6 +235,7 @@ header a:hover{
 .fa-gear{
   font-size: 32px;
   color: rgb(163, 92, 122);
+
 }
 
 .fa-brands:hover,
@@ -309,7 +310,7 @@ header a:hover{
     color: black;
     text-decoration: none;
     position: relative;
-    height: 600px !important;
+    height: 620px !important;
 
   }
 
@@ -383,7 +384,7 @@ header a:hover{
   
   .titulo-proyect {
     margin: 20px;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase !important;
     font-weight: 900;
     text-align: center;
@@ -415,8 +416,9 @@ header a:hover{
   }
   
   .fa-react, .fa-node-js, .fa-figma,
-  .fa-envira, .fa-node, .fa-gear{
-    font-size: 14px;
+  .fa-envira, .fa-node, .fa-gear, 
+  .fa-html5, .fa-js, .fa-css3-alt{
+    font-size: 15px;
     color: black;
     margin-right: 5px;
   }
@@ -592,6 +594,13 @@ header a:hover{
     font-weight: bold;
     transition: color 0.3s ease;
   }
+
+  .redes{
+    color: rgb(143, 39, 82);
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
   
   .footer-copy {
     margin-top: 50px;
@@ -627,8 +636,6 @@ header a:hover{
     p{ font-size: 18px;}
     .contenido{width: 80%;}
     .descripcion-laura{  width: 100%;}
-
-
     .descrip {margin-top: 50px;}
     .imagen-laura {padding: 0px; padding: 0px;}
   }
