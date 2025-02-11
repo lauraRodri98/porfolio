@@ -679,7 +679,7 @@ header a:hover{
     footer .nombre{ font-size: 50px;}
     footer{ justify-content: center;}
     .main-lista-proyectos .proyect{min-width: 100%; min-height: 300px;}
-    .imagen-proyec img {height: 200px;}
+    .imagen-proyec img {height: 250px;}
     .tecnologias div {width: 120px; font-size: 12px; padding: 10px;}
     .tecnologias div i, .tecnologias .icon{ font-size: 25px;}
   }
