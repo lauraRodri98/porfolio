@@ -29,7 +29,7 @@ header{
 
 header a{
     text-decoration: none;
-    color:  black;
+    color:  rgb(38, 38, 38);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -634,7 +634,7 @@ header a:hover{
   }
   
   @media (max-width: 950px) {
-    p{ font-size: 18px;}
+    p{ font-size: 16px;}
     .contenido{width: 80%;}
     .descripcion-laura{  width: 100%;}
     .descrip {margin-top: 50px;}
@@ -653,23 +653,25 @@ header a:hover{
   @media (max-width:670px){
     .titulo{font-size: 35px;}
     header{width: 100%; gap: 10px; margin:0px}
+    p{font-size: 14px;}
   }
 
   @media (max-width:588px){
     .tecnologias div{width: 150px; height: 50px;}
-    header a{font-size: 14px; letter-spacing: 0px;}
+    header a{font-size: 18px; letter-spacing: 0px; }
     header{ display: flex; justify-content: center;}
     .main-lista-proyectos .proyect{min-width: 350px;}
+    p{font-size: 12px;}
   }
 
   @media (max-width: 413px) {
-    header a{font-size: 12px; letter-spacing: 0px;}
+    header a{font-size: 14px; letter-spacing: 0px;}
     body{padding: 10px;}
     .contenido{ width: 100%; padding: 10px;}
     .descripcion-laura{ width: 100%; margin-top: 50px}
     .titulo{ font-size: 30px;}
     p.welcome{ font-size: 12px;}
-    p{ font-size: 14px;}
+    /* p{ font-size: 12px;} */
     .tittle-formacion{padding-top: 50px;}
     .titulo-proyect{font-size: 20px;}
     .btn-53 .original{ font-size: 18px;}
