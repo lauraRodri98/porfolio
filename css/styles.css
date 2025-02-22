@@ -30,11 +30,12 @@ header{
 header a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight:bolder;
     transition: all 200ms ease;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:"Comfortaa", serif;
+    color:rgb(72, 72, 72);
 }
 
 header a:hover{
@@ -532,8 +533,15 @@ header a:hover{
   .panel{
     margin-left: 60px;
   }
+
   .php{
     gap: 10px;
+  }
+
+  .tecnologias div .mysql{
+    width: 50px;
+    height: 60px;
+    padding: 5px;
   }
 
   .fa-circle{
